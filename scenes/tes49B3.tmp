@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkddj22aic5pk"]
+
+[ext_resource type="Texture2D" uid="uid://cwitvs4v2qw53" path="res://intro_image_k2R3EnV.png" id="1_ahpd1"]
+[ext_resource type="Script" path="res://scenes/test_scene.gd" id="1_hxecr"]
+
+[node name="TestScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hxecr")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ahpd1")
+expand_mode = 1
